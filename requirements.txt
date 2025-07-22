@@ -7,3 +7,4 @@ shodan
 tabulate
 python-nmap
 python-whois
+jinja2
