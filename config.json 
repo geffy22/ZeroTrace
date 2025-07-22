@@ -1,0 +1,9 @@
+{
+  "dns_scan": true,
+  "whois_scan": true,
+  "port_scan": true,
+  "web_tech": true,
+  "vuln_scan": true,
+  "subdomain_scan": true,
+  "osint_scan": true
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<title>Отчёт ZeroTrace по {{ target }}</title>
+<style>
+  body { font-family: Arial, sans-serif; background: #1e1e1e; color: #ddd; }
+  h1 { color: #4caf50; }
+  pre { background: #2d2d2d; padding: 10px; border-radius: 6px; overflow-x: auto; }
+  section { margin-bottom: 30px; }
+</style>
+</head>
+<body>
+  <h1>Отчёт ZeroTrace по цели: {{ target }}</h1>
+  <p>Время создания: {{ timestamp }}</p>
+  {% for mod, output in report.items() %}
+    <section>
+      <h2>Модуль: {{ mod }}</h2>
+      <pre>{{ output }}</pre>
+    </section>
+  {% endfor %}
+</body>
+</html>

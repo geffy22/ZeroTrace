@@ -1,0 +1,9 @@
+rich
+dnspython
+requests
+python-whois
+aiohttp
+shodan
+tabulate
+python-nmap
+python-whois
